@@ -7,11 +7,11 @@ class Kraws < Formula
 
   if OS.mac?
     url "http://kraws-artefacts.s3-website.eu-central-1.amazonaws.com/v0.6.0/kraws_0.6.0_darwin_amd64.tar.gz"
-    sha256 "039182f86f9a788fff2c60c15930755ef9beefaa24aa84988e335f505940ba60"
+    sha256 "e231cc77289b8b1960986674f96522e7c2069ceb7f7dd9ba599496f828f725fa"
   elsif OS.linux?
     if Hardware::CPU.intel?
       url "http://kraws-artefacts.s3-website.eu-central-1.amazonaws.com/v0.6.0/kraws_0.6.0_linux_amd64.tar.gz"
-      sha256 "48eaec84557cb40064ebfe2f4c5a6341c3ef048574de105e55ec18adcdf04477"
+      sha256 "30ca1c102d30056a612dcdb3abdc7f4b538931412f3fc602bbac8b5ea30870f3"
     end
   end
 
