@@ -2,16 +2,16 @@
 class Kraws < Formula
   desc "KRAWS is short for Key Ring for AWS and allows you to assume roles in your AWS Accounts by authenticating towards your federated IDP"
   homepage "https://github.com/innio-it/kraws"
-  version "0.6.3"
+  version "0.7.0"
   bottle :unneeded
 
   if OS.mac?
-    url "http://kraws-artefacts.s3-website.eu-central-1.amazonaws.com/v0.6.3/kraws_0.6.3_darwin_amd64.tar.gz"
-    sha256 "8f82f2f60da3fd0fe9c7a87607ba0d20a21f2de772a034792705b109765abe63"
+    url "http://kraws-artefacts.s3-website.eu-central-1.amazonaws.com/v0.7.0/kraws_0.7.0_darwin_amd64.tar.gz"
+    sha256 "962ea05d431bf76f076d04c8073468c276ca6c5f013ec5a4c1eb896d10f8297a"
   elsif OS.linux?
     if Hardware::CPU.intel?
-      url "http://kraws-artefacts.s3-website.eu-central-1.amazonaws.com/v0.6.3/kraws_0.6.3_linux_amd64.tar.gz"
-      sha256 "fd6ad5397319d1639ff99e4d7d8561b1a3823136003f36f7754fe970991a3b72"
+      url "http://kraws-artefacts.s3-website.eu-central-1.amazonaws.com/v0.7.0/kraws_0.7.0_linux_amd64.tar.gz"
+      sha256 "65d9e107cb1aed745123074131770055afe39110ff974d9c536008dc53c70f17"
     end
   end
 
